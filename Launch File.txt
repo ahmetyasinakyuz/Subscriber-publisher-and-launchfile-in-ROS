@@ -1,0 +1,4 @@
+<launch>
+  <node name="sensor_listener" pkg="my_package" type="listener.py" output="screen" />
+  <node name="sensor_publisher" pkg="my_package" type="publisher.py" output="screen" />
+</launch>
