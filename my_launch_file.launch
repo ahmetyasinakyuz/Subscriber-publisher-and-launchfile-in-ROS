@@ -1,0 +1,8 @@
+<launch>
+  <!-- 'publisher_node' isimli ROS düğümünü başlatır ve 'publisher_node.py' adlı Python dosyasını çalıştırır. -->
+  <node name="publisher_node" pkg="my_ros_package" type="publisher_node.py" output="screen"/>
+  
+  <!-- 'subscriber_node' isimli ROS düğümünü başlatır ve 'subscriber_node.py' adlı Python dosyasını çalıştırır. -->
+  <node name="subscriber_node" pkg="my_ros_package" type="subscriber_node.py" output="screen"/>
+</launch>
+
